@@ -20,26 +20,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Separated CSS Stylesheet -->
-    <link rel="stylesheet" href="public/css/style.css?v=3">
+    <link rel="stylesheet" href="public/css/style.css?v=15">
     
     <!-- Main Script (deferred for speed and performance) -->
     <script defer src="public/js/main.js"></script>
 </head>
 <body>
 
-
-
     <!-- Main Content Container -->
     <main class="main-content">
-        <div class="content-wrapper">
-            
+        
+        <!-- Top 1/3: Logo Section -->
+        <div class="logo-section">
             <!-- Profile Avatar / Logo -->
             <div class="logo-container animate-fade-in delay-2" id="avatarContainer">
                 <img alt="Tattoo & Lashes Nails Logo" class="logo-image" src="public/img/logo.jpeg">
             </div>
+        </div>
+
+        <!-- Bottom 2/3: Links and Footer -->
+        <div class="bottom-section">
             
-            <!-- Social Link Buttons -->
-            <div class="links-list" id="linksList">
+            <!-- Unified Element (Buttons + Text) vertically centered -->
+            <div class="unified-links-group">
+                
+                <!-- Social Link Buttons -->
+                <div class="links-list" id="linksList">
                 
                 <!-- Instagram -->
                 <a class="glass-btn animate-fade-in delay-3" href="https://www.instagram.com/luminous_tattoo.lash" target="_blank" rel="noopener noreferrer">
@@ -81,13 +87,15 @@
             
             <h2 class="appointment-text animate-fade-in delay-7 glow-text">¡Agenda tu cita!</h2>
             
+            </div>
+
             <!-- Footer Area -->
             <footer class="main-footer animate-fade-in delay-8">
                 <div class="footer-container">
                     <p class="footer-copyright">© 2026 TATTOO & LASHES NAILS STUDIO. TODOS LOS DERECHOS RESERVADOS.</p>
                 </div>
             </footer>
-
+            
         </div>
     </main>
 
